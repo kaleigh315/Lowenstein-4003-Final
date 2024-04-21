@@ -37,11 +37,11 @@ fig_new.show()
 
 # %%
 #Image Set Up
-image_path = 'assets/image.png'
+image_path = 'image.png'
 
 html.Img(src=image_path)
 
-pil_img = Image.open("assets/image.png")
+pil_img = Image.open("image.png")
 
 def b64_image(image_filename):
     with open(image_filename, 'rb') as f:
