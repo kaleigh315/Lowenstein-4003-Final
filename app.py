@@ -96,6 +96,8 @@ all_milk_options = {
 
 stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = Dash(__name__, external_stylesheets=stylesheets)
+server = app.server
+
 
 app.layout = html.Div([
     html.A(html.Button('Click Here for GitHub Repository'), href='https://github.com/LowensteinCa1/Lowenstein-4003-Final.git', target='_blank'),
