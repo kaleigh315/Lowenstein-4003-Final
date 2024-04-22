@@ -13,7 +13,7 @@ from dash.dependencies import Input, Output
 
 # %%
 from dash import Dash, html
-import base64
+#import base64
 from PIL import Image
 
 # %%
@@ -43,10 +43,10 @@ html.Img(src=image_path)
 
 pil_img = Image.open("image.png")
 
-def b64_image(image_filename):
-    with open(image_filename, 'rb') as f:
-        image = f.read()
-    return 'data:image/png;base64,' + base64.b64encode(image).decode('utf-8')
+#def b64_image(image_filename):
+    #with open(image_filename, 'rb') as f:
+        #image = f.read()
+    #return 'data:image/png;base64,' + base64.b64encode(image).decode('utf-8')
 
 # %%
 #Dictionary for sizes
