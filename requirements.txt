@@ -7,3 +7,4 @@ gunicorn
 jupyter_dash
 Pillow
 PIL
+base64
