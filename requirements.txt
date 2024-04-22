@@ -5,5 +5,4 @@ scikit_learn
 plotly
 gunicorn
 jupyter_dash
-pillow
-base64
+Pillow == 5.1.0
