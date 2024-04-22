@@ -112,7 +112,7 @@ app.layout = html.Div([
     ]),
     html.Div([
         html.Div([
-            html.Img(src=image_path, className='logo', style={'width': '200px', 'height': '200px'}),
+            html.Img(src=pil_img, className='logo', style={'width': '200px', 'height': '200px'}),
         ], style={'position': 'absolute', 'top': '30px', 'right': '30px', 'zIndex': '2'}),
     ]),
     html.Div([
